@@ -216,8 +216,8 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
 <!-- Hidden Booth Template Start -->
 
 <div id='BoothHtml' style="display:none;">
-  <div onclick="showLargeBooth('LargeViewWrapper');" id="Small-Booth-Main-Div-Area-LargeViewWrapper" class='SmallBoothContainer'>
-    <div class="leicester-booth-top-logo"> <a class="demo-tip-darkgray" title="UNIVERSITY-TITLE" href="javascript:;" onclick="showBooth('LargeViewWrapper');"> <img UNIVERSITY-LOGO-TOP alt="UNIVERSITY-TITLE" style=''/> </a> </div>
+  <div onClick="showLargeBooth('LargeViewWrapper');" id="Small-Booth-Main-Div-Area-LargeViewWrapper" class='SmallBoothContainer'>
+    <div class="leicester-booth-top-logo"> <a class="demo-tip-darkgray" title="UNIVERSITY-TITLE" href="javascript:;" onClick="showBooth('LargeViewWrapper');"> <img UNIVERSITY-LOGO-TOP alt="UNIVERSITY-TITLE" style=''/> </a> </div>
     <div id="Small-Booth-Banners-Parent-Div-LargeViewWrapper" style="display:none;"></div>
     <a id="Small-Booth-Image-LargeViewWrapper" class="demo-tip-darkgray" title="UNIVERSITY-TITLE" href="javascript:;"> <img id="SmallBooth-LargeViewWrapper" UNIVERSITY-SMALL-BOOTH alt="UNIVERSITY-TITLE"/> </a> </div>
 </div>
@@ -228,7 +228,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
 
 <div style='display:none;' id="ThumbsPanel">
   <div class="thumbs">
-    <div class="logo-container"> <a class="demo-tip-darkgray" title="UNIVERSITY-TITLE" onclick="showBooth('LargeViewWrapper')" href="javascript:;"> <img UNIVERSITY-LOGO alt="Logo" /> </a> </div>
+    <div class="logo-container"> <a class="demo-tip-darkgray" title="UNIVERSITY-TITLE" onClick="showBooth('LargeViewWrapper')" href="javascript:;"> <img UNIVERSITY-LOGO alt="Logo" /> </a> </div>
   </div>
 </div>
 <div style='display:none;' id="BoothsThumbsTpl">
@@ -265,7 +265,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
   <div id="LargeViewWrapperTmp" style="display: none;" class="Main-Large-View-Booth-Class-Ash">
     <div class="body-container">
       <div class="view-booth-bg" style="background-image: url('images/main_banner_bg.jpg');">
-        <div class="back-to-floor"> <a href="javascript:;" onclick="hideBooth('LargeViewWrapperTmp');">
+        <div class="back-to-floor"> <a href="javascript:;" onClick="hideBooth('LargeViewWrapperTmp');">
           <div class="BacktoTheFloor AshToolTip" id="BacktoTheFloorBtnText" style="width:120px;font-size: 17px;">Back to Floor</div>
           </a> </div>
         <div class="booth-lg-view">
@@ -273,7 +273,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
           <img class="AshToolTip" UNIVERSITY-LARGE-BOOTH alt="UNIVERSITY-TITLE" title="" border="0" /> </div>
       </div>
       <div id="Prev-Next-Booth-Btns" class="bighrader-bot-bg">
-        <div class="pre-but"> <a href="javascript:;" id="Prev-Booth-Anchor" onclick="showLargeBooth('Prev-Booth-Id');" >
+        <div class="pre-but"> <a href="javascript:;" id="Prev-Booth-Anchor" onClick="showLargeBooth('Prev-Booth-Id');" >
           <div class="PrevFloorBtn AshToolTip" id="PrevBoothBtnText">Previous Booth</div>
           </a> </div>
         <div class="mob-booth-menu all-buts-container">
@@ -294,7 +294,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
             </tr>
           </table>
         </div>
-        <div class="next-but"> <a href="javascript:;" id="Next-Booth-Anchor" onclick="showLargeBooth('Next-Booth-Id');">
+        <div class="next-but"> <a href="javascript:;" id="Next-Booth-Anchor" onClick="showLargeBooth('Next-Booth-Id');">
           <div class="NextFloorBtn AshToolTip" id="NextBoothBtnText">Next Booth</div>
           </a> </div>
       </div>
@@ -432,7 +432,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
   <div class="body-wrapper">
     <div class="main-nav vjf-nav" role="navigation">
       <ul>
-        <li ><a   role="button" href="Index.html" data-id="11095"><span class="fa fa-building-o"></span>Welcome Area</a></li>
+        <li ><a   role="button" href="home.html" data-id="11095"><span class="fa fa-building-o"></span>Welcome Area</a></li>
         <li ><a   data-cms-id="22264" role="button" href="exhibition.html" data-id="11096"><span class="fa fa-building"></span> Exhibition Halls</a></li>
         <li ><a  role="button" href="main.html" data-id="11100"><span class="fa fa-building"></span> Main Stage</a></li>
         <li ><a   data-cms-id="16387" role="button" href="burst.html" data-id="18117"><span class="fa fa-building"></span> Burst Mode Hub</a></li>
@@ -490,7 +490,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
             <!-- Documents Tab -->
             
             <div id="Tab-Global-Documents-Tab" style="width:922px; height:438px; margin:0px auto 0px auto; padding:0px 0px 0px 0px;position:absolute; display:none;z-index: 150;">
-              <div class="back-to-floor"> <a href="javascript:;" onclick="HideGlobalTabs();">
+              <div class="back-to-floor"> <a href="javascript:;" onClick="HideGlobalTabs();">
                 <div class="BacktoTheFloor AshToolTip">Back to Floor</div>
                 </a> </div>
               <div id="Tab-Global-Documents-Tab-Data" class="GlobalTabsDataDiv">
@@ -511,7 +511,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
             <!-- Videos Tab -->
             
             <div id="Tab-Global-Videos-Tab" style="width:922px; height:438px; margin:0px auto 0px auto; padding:0px 0px 0px 0px;position:absolute; display:none;z-index: 150;">
-              <div class="back-to-floor"> <a href="javascript:;" onclick="HideGlobalTabs();">
+              <div class="back-to-floor"> <a href="javascript:;" onClick="HideGlobalTabs();">
                 <div class="BacktoTheFloor AshToolTip">Back to Floor</div>
                 </a> </div>
               <div id="Tab-Global-Videos-Tab-Data" class="GlobalTabsDataDiv">
@@ -532,7 +532,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
             <!-- Jobs Tab -->
             
             <div id="Tab-Global-Jobs-Tab" style="width:922px; height:438px; margin:0px auto 0px auto; padding:0px 0px 0px 0px;position:absolute; display:none;z-index: 150;">
-              <div class="back-to-floor"> <a href="javascript:;" onclick="HideGlobalTabs();">
+              <div class="back-to-floor"> <a href="javascript:;" onClick="HideGlobalTabs();">
                 <div class="BacktoTheFloor AshToolTip">Back to Floor</div>
                 </a> </div>
               <div id="Tab-Global-Jobs-Tab-Data" class="GlobalTabsDataDiv">
@@ -581,7 +581,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
             <div class="clear"></div>
           </div>
           <marquee scrollamount="5" behavior="scroll" direction="left">
-          <span style="display: inline-block; margin-right: 100px; cursor: pointer" onclick="showWebinarScreen(true);">Smart Simple Marketing’s LIVE Presentation will be starting at 3pm PT Today! Stop by their booth to chat with their representatives or see what other materials and/or bonuses they may have for you.</span>
+          <span style="display: inline-block; margin-right: 100px; cursor: pointer" onClick="showWebinarScreen(true);">Smart Simple Marketing’s LIVE Presentation will be starting at 3pm PT Today! Stop by their booth to chat with their representatives or see what other materials and/or bonuses they may have for you.</span>
           </marquee>
           <div class="home-container" id="osponsor-section">
             <div class="left">
@@ -4818,9 +4818,9 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
         <div style="display:none" id="process-time-2">0.24681091308594</div>
         <div class="extra-section" id="exterior-view" style="display: block;">
           <div class="entry-view"><img src="lobby.png" alt=""></div>
-          <a data-type-id="85" data-content-id="112840" onclick="showInfoDesk();" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 65.75%; left: 6.89%; width: 16.81%; height: 8.33%; "></a><a data-type-id="85" data-content-id="112841" onclick="loadBooth('31728')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 44.79%; left: 38.71%; width: 23.53%; height: 18.32%; "></a><a data-type-id="85" data-content-id="112842" onclick="loadBooth('30047')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 3.90%; left: 20.53%; width: 7.44%; height: 37.28%; "></a><a data-type-id="85" data-content-id="112843" onclick="showWebinarScreen();" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 17.71%; left: 32.08%; width: 16.19%; height: 16.47%; "></a><a data-type-id="85" data-content-id="112844" onclick="showHtmlSection('#custom-cms-page-16387')" data-cms-id="16387" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 21.79%; left: 82.64%; width: 14.16%; height: 14.80%; "></a><a data-type-id="85" data-content-id="112845" onclick="showHtmlSection('#custom-cms-page-16386')" data-cms-id="16386" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 21.96%; left: 1.25%; width: 15.77%; height: 13.32%; "></a><a data-type-id="85" data-content-id="112846" onclick="loadBooth('29989')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 4.09%; left: 72.55%; width: 6.04%; height: 37.93%; "></a><a data-type-id="85" data-content-id="112847" onclick="showHtmlSection('#custom-cms-page-22264')" data-cms-id="22264" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 18.39%; left: 51.74%; width: 15.93%; height: 15.82%; "></a><a data-type-id="85" data-content-id="112848" onclick="showHtmlSection('#custom-cms-page-22263')" data-cms-id="22263" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 9.05%; left: 2.34%; width: 12.60%; height: 7.96%; "></a><a data-type-id="85" data-content-id="112849" onclick="showHtmlSection('#custom-cms-page-22263')" data-cms-id="22263" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 9.70%; left: 84.00%; width: 12.65%; height: 7.77%; "></a><a data-type-id="85" data-content-id="1128410" href="#" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 50.79%; left: 87.00%; width: 5.41%; height: 13.23%; "></a></div>
-        <div class="auditorium-section extra-section" style="display: none;"><a href="javascript:;" onclick="showWebinarGroup([3508, 3507, 3509, 3510, 3511, 3512,3515]);"> <img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1596646551auditorium3.png" width="100%" /></a><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1598285509TPVS.0175.Sponsored-auditorium-graphics-v3-150-x-200.gif" style="position: absolute; left: 12%; top: 30%; width: 9%; height: auto;" /> <img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1598285509TPVS.0175.Sponsored-auditorium-graphics-v3-150-x-200.gif" style="position: absolute; left: 75.5%; top: 30%; width: 9.2%; height: auto;" /></div>
-        <div class="extra-section" id="vjf-info-desk" style="display: none"><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/159915000415991269131596648159infodesk1%20(1)%20(2)%20(1).png" alt="Info Desk"><a data-type-id="85" data-content-id="112860" href="https://photographyshow.vfairs.com/vjf/1329?cid=39226" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 16.57%; left: 9.44%; width: 9.21%; height: 22.11%; "></a><a data-type-id="85" data-content-id="112861" onclick="showDocumentViewer(this)" href="#" data-url="https://vepimg.b8cdn.com/uploads/vjfnew/1329/content/docs/1600434517the-photography-show-and-the-video-show-virtual-festival-user-guide-pdf1600434517.pdf" role="button" class="track-this-element" style="position:absolute; cursor:pointer; top: 16.55%; left: 80.32%; width: 9.16%; height: 22.29%; "></a><a data-type-id="85" data-content-id="112862" href="https://issuu.com/futurepublishing/docs/tpvs_virtualshowguide?fr=sOTlhNzE5NTYwMzQ" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 35.79%; left: 72.77%; width: 6.14%; height: 6.11%; "></a><a data-type-id="85" data-content-id="112863" href="https://issuu.com/futurepublishing/docs/tpvs_virtualshowguide?fr=sOTlhNzE5NTYwMzQ" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 35.98%; left: 20.36%; width: 6.56%; height: 6.66%; "></a></div>
+          <a data-type-id="85" data-content-id="112840" onClick="showInfoDesk();" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 65.75%; left: 6.89%; width: 16.81%; height: 8.33%; "></a><a data-type-id="85" data-content-id="112841" onClick="loadBooth('31728')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 44.79%; left: 38.71%; width: 23.53%; height: 18.32%; "></a><a data-type-id="85" data-content-id="112842" onClick="loadBooth('30047')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 3.90%; left: 20.53%; width: 7.44%; height: 37.28%; "></a><a data-type-id="85" data-content-id="112843" onClick="showWebinarScreen();" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 17.71%; left: 32.08%; width: 16.19%; height: 16.47%; "></a><a data-type-id="85" data-content-id="112844" onClick="showHtmlSection('#custom-cms-page-16387')" data-cms-id="16387" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 21.79%; left: 82.64%; width: 14.16%; height: 14.80%; "></a><a data-type-id="85" data-content-id="112845" onClick="showHtmlSection('#custom-cms-page-16386')" data-cms-id="16386" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 21.96%; left: 1.25%; width: 15.77%; height: 13.32%; "></a><a data-type-id="85" data-content-id="112846" onClick="loadBooth('29989')" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 4.09%; left: 72.55%; width: 6.04%; height: 37.93%; "></a><a data-type-id="85" data-content-id="112847" onClick="showHtmlSection('#custom-cms-page-22264')" data-cms-id="22264" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 18.39%; left: 51.74%; width: 15.93%; height: 15.82%; "></a><a data-type-id="85" data-content-id="112848" onClick="showHtmlSection('#custom-cms-page-22263')" data-cms-id="22263" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 9.05%; left: 2.34%; width: 12.60%; height: 7.96%; "></a><a data-type-id="85" data-content-id="112849" onClick="showHtmlSection('#custom-cms-page-22263')" data-cms-id="22263" role="button" href="#" class="track-this-element" style="position:absolute; cursor:pointer; top: 9.70%; left: 84.00%; width: 12.65%; height: 7.77%; "></a><a data-type-id="85" data-content-id="1128410" href="#" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 50.79%; left: 87.00%; width: 5.41%; height: 13.23%; "></a></div>
+        <div class="auditorium-section extra-section" style="display: none;"><a href="javascript:;" onClick="showWebinarGroup([3508, 3507, 3509, 3510, 3511, 3512,3515]);"> <img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1596646551auditorium3.png" width="100%" /></a><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1598285509TPVS.0175.Sponsored-auditorium-graphics-v3-150-x-200.gif" style="position: absolute; left: 12%; top: 30%; width: 9%; height: auto;" /> <img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1598285509TPVS.0175.Sponsored-auditorium-graphics-v3-150-x-200.gif" style="position: absolute; left: 75.5%; top: 30%; width: 9.2%; height: auto;" /></div>
+        <div class="extra-section" id="vjf-info-desk" style="display: none"><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/159915000415991269131596648159infodesk1%20(1)%20(2)%20(1).png" alt="Info Desk"><a data-type-id="85" data-content-id="112860" href="https://photographyshow.vfairs.com/vjf/1329?cid=39226" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 16.57%; left: 9.44%; width: 9.21%; height: 22.11%; "></a><a data-type-id="85" data-content-id="112861" onClick="showDocumentViewer(this)" href="#" data-url="https://vepimg.b8cdn.com/uploads/vjfnew/1329/content/docs/1600434517the-photography-show-and-the-video-show-virtual-festival-user-guide-pdf1600434517.pdf" role="button" class="track-this-element" style="position:absolute; cursor:pointer; top: 16.55%; left: 80.32%; width: 9.16%; height: 22.29%; "></a><a data-type-id="85" data-content-id="112862" href="https://issuu.com/futurepublishing/docs/tpvs_virtualshowguide?fr=sOTlhNzE5NTYwMzQ" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 35.79%; left: 72.77%; width: 6.14%; height: 6.11%; "></a><a data-type-id="85" data-content-id="112863" href="https://issuu.com/futurepublishing/docs/tpvs_virtualshowguide?fr=sOTlhNzE5NTYwMzQ" target="_blank" role="link" class="track-this-element" style="position:absolute; cursor:pointer; top: 35.98%; left: 20.36%; width: 6.56%; height: 6.66%; "></a></div>
         <div id="leader-board" class="extra-section">
           <div class="leaderboard">
             <div class="leader-list"></div>
@@ -4923,16 +4923,16 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
           <div class="clearfix"></div>
         </div>
         <div class="extra-section vjf-custom-page" id="custom-cms-page-10327" style="display:none">
-          <div> <img src="//vepimg.b8cdn.com/uploads/vjfnew/686/uploads/vjf/content/misc/1584623931Lounge (1).jpg" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /> <a href="https://twitter.com/@MyVMUG" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 21%; left: 72%;" rel="noopener noreferrer"></a> <a href="http://facebook.com/VMwareUserGroup" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 34%; left: 72%;" rel="noopener noreferrer"></a> <a href="http://linkedin.com/company/vmware-user-group" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 47%; left: 72%;" rel="noopener noreferrer"></a> <a data-url="//vepimg.b8cdn.com/uploads/vjfnew/316/content/docs/1568854724meet-the-experts....pdf" onclick="showDocumentViewer(this)" href="javascript:;" class="lounge-bio-lnk" style="cursor: pointer; position: absolute; width: 7%; height: 5%; top: 13%; left: 77.5%;"></a> <a href="javascript:;" data-item-id="5" id="bacon" class="track-scavenger-items"></a> <a href="javascript:;" data-item-id="6" id="can" class="track-scavenger-items"></a> <a href="javascript:;" data-item-id="7" id="ball" class="track-scavenger-items"></a> <a style="cursor: pointer; position: absolute; width: 8%; height: 5%; top: 12%; left: 85.5%;"></a> </div>
+          <div> <img src="//vepimg.b8cdn.com/uploads/vjfnew/686/uploads/vjf/content/misc/1584623931Lounge (1).jpg" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /> <a href="https://twitter.com/@MyVMUG" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 21%; left: 72%;" rel="noopener noreferrer"></a> <a href="http://facebook.com/VMwareUserGroup" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 34%; left: 72%;" rel="noopener noreferrer"></a> <a href="http://linkedin.com/company/vmware-user-group" target="_blank" style="cursor: pointer; position: absolute; width: 22%; height: 10%; top: 47%; left: 72%;" rel="noopener noreferrer"></a> <a data-url="//vepimg.b8cdn.com/uploads/vjfnew/316/content/docs/1568854724meet-the-experts....pdf" onClick="showDocumentViewer(this)" href="javascript:;" class="lounge-bio-lnk" style="cursor: pointer; position: absolute; width: 7%; height: 5%; top: 13%; left: 77.5%;"></a> <a href="javascript:;" data-item-id="5" id="bacon" class="track-scavenger-items"></a> <a href="javascript:;" data-item-id="6" id="can" class="track-scavenger-items"></a> <a href="javascript:;" data-item-id="7" id="ball" class="track-scavenger-items"></a> <a style="cursor: pointer; position: absolute; width: 8%; height: 5%; top: 12%; left: 85.5%;"></a> </div>
         </div>
         <div class="extra-section vjf-custom-page" id="custom-cms-page-16386" style="display:none">
           <div class="extra-section vjf-custom-page" id="custom-cms-page-16386" style="display: block;">
-            <div><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/15982783081596646700auditorium2 (1).png" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /><a style="cursor: pointer; position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;" onclick="showWebinarGroup([3513, 3514, 3515, 3548]);"></a></div>
+            <div><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/15982783081596646700auditorium2 (1).png" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /><a style="cursor: pointer; position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;" onClick="showWebinarGroup([3513, 3514, 3515, 3548]);"></a></div>
           </div>
         </div>
         <div class="extra-section vjf-custom-page" id="custom-cms-page-16387" style="display:none">
           <div class="extra-section vjf-custom-page" id="custom-cms-page-16387" style="display: block;">
-            <div><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1596648077auditorium1.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /><a style="cursor: pointer; position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;" onclick="showWebinarGroup([3516])"></a></div>
+            <div><img src="https://vepimg.b8cdn.com/uploads/vjfnew/1329/uploads/vjf/content/misc/1596648077auditorium1.png" width="100%" style="display: block; margin-left: auto; margin-right: auto;" /><a style="cursor: pointer; position: absolute; width: 100%; height: 100%; left: 0%; top: 0%;" onClick="showWebinarGroup([3516])"></a></div>
           </div>
         </div>
         <div class="extra-section vjf-custom-page" id="custom-cms-page-22263" style="display:none">
@@ -4948,7 +4948,7 @@ ServerResponse = '{"EditProfileMode":"Yes","Application":"1329","UserId":"115038
           <div class="profile-container">
             <div class="profile-heading-top">
               <h1 id="MyProfileHeading">My Profile</h1>
-              <div class="back-to-home"> <a href="javascript:;" onclick="hideBooth('view-profile');">
+              <div class="back-to-home"> <a href="javascript:;" onClick="hideBooth('view-profile');">
                 <div class="BacktoTheFloor AshToolTip" id="BacktoTheFloorBtnTextTwo">Back to Floor</div>
                 </a> </div>
             </div>
